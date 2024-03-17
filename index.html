@@ -28,10 +28,10 @@
 
 <div class="outputs">
         <div class="searshBlock">
-        <input type="text" id="dearch" placeholder="search">
+        <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="search">
         <div class="btnSearch">
-        <button id="searchTitel"> Search By Name</button>
-        <button id="searchCategory"> Search By Category </button>
+        <button onclick="getSearchMood(this.id)" id="searchTitel"> Search By Name</button>
+        <button onclick="getSearchMood(this.id) " id="searchCategory"> Search By Category </button>
         </div>
         
     </div>
